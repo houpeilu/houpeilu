@@ -1,0 +1,20 @@
+/*
+   输入三个实数判断三角形的形状
+*/
+#include  <stdio.h>
+int  main(void) 
+ {     
+     int   a,b,c;
+if   (a=b=c)
+     puts("1")
+if   (a=b
+     b<c
+     a+b>c)
+     puts("2")
+if   (a<b<c
+     a+b>c)
+     puts("3")
+if   (a+b<c)
+     puts("0")
+     return（0）;
+ }
