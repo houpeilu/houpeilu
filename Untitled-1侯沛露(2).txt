@@ -1,0 +1,22 @@
+/*
+   输入两门课的成绩进行判断
+*/
+
+#include   <stdio.h>
+
+int main(void)
+{
+    int   na, nb;
+    int   vx=na-60, 
+          vy=nb-60;
+
+    scanf("%d", &na, nb);
+
+    switch(vx, vy){
+        case vx<-60,vy>40 : puts("it is error.")     break;
+        case vx>0, vy>0 : puts("it is pass.");       break;
+        case vx<0, vy>0 : puts("it is not pass.");   break;
+    }
+
+    return (0);
+}
